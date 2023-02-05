@@ -73,13 +73,13 @@ window.addEventListener("scroll", function () {
   console.log(scrollYpos);
 
   if (scrollYpos > 300) {
-    const peruAnimate = document.querySelector(".peru");
-    peruAnimate.classList.add("animate");
+    const elsalvadorAnimate = document.querySelector(".elsalvador");
+    elsalvadorAnimate.classList.add("animate");
   }
 
   if (scrollYpos > 800) {
-    const indonesiaAnimate = document.querySelector(".indonesia");
-    indonesiaAnimate.classList.add("animate");
+    const ethiopiaAnimate = document.querySelector(".ethiopia");
+    ethiopiaAnimate.classList.add("animate");
   }
 
   if (scrollYpos > 1200) {
