@@ -11,6 +11,13 @@ function solution(str) {
 
     // 한글 체크용 정규 표현식
     const regExpKorean = /[ㄱ-ㅎㅏ-ㅣ가-힣]/g;
+    const regExpSpace = /s/g;
+
+    // 첫글자가 공백인 경우 카운트 하지 않도록 설정
+    if (count === 0 && oneChar === " ") {
+      nextIndex += 1;
+      continue;
+    }
 
     // 해당 글자가 한글인지 체크해서 한글이면 +2, 아니면 +1
     regExpKorean.test(oneChar) ? (count += 2) : (count += 1);
