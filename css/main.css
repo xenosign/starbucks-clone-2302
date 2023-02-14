@@ -546,7 +546,7 @@ header .badges .badge img {
 .notice .promotion .swiper .swiper-wrapper .swiper-slide {
   opacity: 0.5;
   transition: 0.2s;
-  position: relative;
+  /* position: relative; */
 }
 
 .notice .promotion .swiper .swiper-wrapper .swiper-slide-active {
